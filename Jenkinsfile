@@ -12,7 +12,7 @@ node {
     def CONNECTED_APP_CONSUMER_KEY=env.CONNECTED_APP_CONSUMER_KEY_DH
     println 'KEY IS' 
     println JWT_KEY_CRED_ID
-    def toolkit = 'C:\Program Files\Salesforce CLI\bin\sfdx'
+    def toolkit = 'C:/Program Files/Salesforce CLI/bin/sfdx'
 
     stage('checkout source') {
         // when running in multi-branch job, one must issue this command
